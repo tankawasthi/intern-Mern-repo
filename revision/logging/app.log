@@ -1,7 +1,0 @@
-[2025-08-18 14:00:53] INFO: Server started on port 3000
-[2025-08-18 14:01:25] INFO: Home route accessed
-[2025-08-18 14:01:25] INFO: GET / 304 - - 6.953 ms
-[2025-08-18 14:01:25] INFO: GET /.well-known/appspecific/com.chrome.devtools.json 404 187 - 4.086 ms
-[2025-08-18 14:01:32] INFO: Home route accessed
-[2025-08-18 14:01:32] INFO: GET / 304 - - 1.166 ms
-[2025-08-18 14:01:32] INFO: GET /.well-known/appspecific/com.chrome.devtools.json 404 187 - 0.400 ms
