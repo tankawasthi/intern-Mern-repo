@@ -1,0 +1,9 @@
+GET / 304 - - 4.526 ms
+GET /.well-known/appspecific/com.chrome.devtools.json 404 187 - 1.831 ms
+GET / 304 - - 2.933 ms
+GET /.well-known/appspecific/com.chrome.devtools.json 404 187 - 1.339 ms
+GET / 304 - - 0.904 ms
+GET /favicon.ico 404 150 - 0.434 ms
+GET /.well-known/appspecific/com.chrome.devtools.json 404 187 - 0.515 ms
+GET / 304 - - 7.038 ms
+GET /.well-known/appspecific/com.chrome.devtools.json 404 187 - 1.787 ms
