@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  display: flex;
+  gap: 15px;
+  background: #222;
+  padding: 10px;
+}
+.navbar a, .navbar button {
+  color: white;
+  text-decoration: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+form {
+  max-width: 300px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+input, button {
+  padding: 10px;
+}
