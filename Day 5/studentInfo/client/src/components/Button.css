@@ -1,0 +1,164 @@
+/* Base button styles */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  outline: none;
+  position: relative;
+}
+
+/* Button sizes */
+.btn-small {
+  padding: 6px 12px;
+  font-size: 12px;
+}
+
+.btn-medium {
+  padding: 10px 20px;
+  font-size: 14px;
+}
+
+.btn-large {
+  padding: 14px 28px;
+  font-size: 16px;
+}
+
+/* Button variants - solid */
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  color: white;
+}
+
+.btn-success {
+  background-color: #28a745;
+  color: white;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+  color: #212529;
+}
+
+.btn-info {
+  background-color: #17a2b8;
+  color: white;
+}
+
+/* Button variants - outline */
+.btn-outline.btn-primary {
+  background-color: transparent;
+  border: 2px solid #007bff;
+  color: #007bff;
+}
+
+.btn-outline.btn-secondary {
+  background-color: transparent;
+  border: 2px solid #6c757d;
+  color: #6c757d;
+}
+
+.btn-outline.btn-success {
+  background-color: transparent;
+  border: 2px solid #28a745;
+  color: #28a745;
+}
+
+.btn-outline.btn-danger {
+  background-color: transparent;
+  border: 2px solid #dc3545;
+  color: #dc3545;
+}
+
+/* Hover effects */
+.btn:not(.btn-disabled):not(.btn-loading):hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-outline.btn-primary:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: #545b62;
+}
+
+.btn-outline.btn-secondary:hover {
+  background-color: #6c757d;
+  color: white;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
+
+.btn-outline.btn-success:hover {
+  background-color: #28a745;
+  color: white;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+}
+
+.btn-outline.btn-danger:hover {
+  background-color: #dc3545;
+  color: white;
+}
+
+/* Disabled state */
+.btn-disabled,
+.btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none !important;
+}
+
+.btn-disabled:hover,
+.btn:disabled:hover {
+  transform: none !important;
+  box-shadow: none !important;
+}
+
+/* Loading state */
+.btn-loading {
+  cursor: wait;
+}
+
+.btn-spinner {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Focus state for accessibility */
+.btn:focus {
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+}
