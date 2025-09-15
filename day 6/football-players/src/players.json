@@ -1,0 +1,94 @@
+{
+  "players": [
+    {
+      "id": 1,
+      "name": "Lionel Messi",
+      "age": 36,
+      "nationality": "Argentina",
+      "position": "Forward",
+      "currentClub": "Inter Miami CF",
+      "image": "./images/lionelmessi.avif"
+    },
+    {
+      "id": 2,
+      "name": "Cristiano Ronaldo",
+      "age": 39,
+      "nationality": "Portugal",
+      "position": "Forward",
+      "currentClub": "Al Nassr",
+      "image": "./images/christianoronaldo.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Kylian Mbappé",
+      "age": 25,
+      "nationality": "France",
+      "position": "Forward",
+      "currentClub": "Paris Saint-Germain",
+      "image": "./images/kylianmbappe.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Erling Haaland",
+      "age": 23,
+      "nationality": "Norway",
+      "position": "Forward",
+      "currentClub": "Manchester City",
+      "image": "./images/halland.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Kevin De Bruyne",
+      "age": 32,
+      "nationality": "Belgium",
+      "position": "Midfielder",
+      "currentClub": "Manchester City",
+      "image": ".images/debryen.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Virgil van Dijk",
+      "age": 32,
+      "nationality": "Netherlands",
+      "position": "Defender",
+      "currentClub": "Liverpool",
+      "image": ".images/vandjk.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Harry Kane",
+      "age": 30,
+      "nationality": "England",
+      "position": "Forward",
+      "currentClub": "Bayern Munich",
+      "image": ".images/harrykane.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Neymar Jr.",
+      "age": 32,
+      "nationality": "Brazil",
+      "position": "Forward",
+      "currentClub": "Al Hilal",
+      "image": ".images/neymar.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Robert Lewandowski",
+      "age": 35,
+      "nationality": "Poland",
+      "position": "Forward",
+      "currentClub": "Barcelona",
+      "image": ".images/levantoski.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Mohamed Salah",
+      "age": 31,
+      "nationality": "Egypt",
+      "position": "Forward",
+      "currentClub": "Liverpool",
+      "image": ".images/slhah.jpg"
+    }
+  ]
+}

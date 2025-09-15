@@ -1,0 +1,42 @@
+ [
+        {
+            "id": 1,
+            "image": "./images/breakingbad.jpg",
+            "name": "Breaking Bad",
+            "rating": 9.3,
+            "summary": "A high school chemistry teacher turned methamphetamine producer navigates the dangers of the drug trade while trying to secure his family's future.",
+            "trailer": "https://www.youtube.com/embed/HhesaQXLuRY"
+        },
+        {
+            "id": 2,
+            "image": "./images/gameofThrones.jpg",
+            "name": "Game of Thrones",
+            "rating": 9.2,
+            "summary": "Noble families vie for control of the Seven Kingdoms of Westeros while an ancient enemy returns after being dormant for millennia.",
+            "trailer": "https://www.youtube.com/embed/BpJYNVhG"
+        },
+        {
+            "id": 3,
+            "image": "./images/sharelock.jpeg",
+            "name": "Sherlock",
+            "rating": 9.1,
+            "summary": "A modern update finds the famous sleuth and his doctor partner solving crime in 21st century London.",
+            "trailer": "https://www.youtube.com/embed/3W2ZB5ZkbpY"
+        },
+        {
+            "id": 4,
+            "image": "./images/Stranger_Things.png",
+            "name": "Stranger Things",
+            "rating": 8.7,
+            "summary": "A high school chemistry teacher turned methamphetamine producer navigates the dangers of the drug trade while trying to secure his family's future.",
+            "trailer": "https://www.youtube.com/embed/b9EkMc79ZSU"
+        },
+        {
+            "id": 5,
+            "image": "./images/witcher.jpg",
+            "name": "The Witcher",
+            "rating": 8.2,
+            "summary": "Geralt of Rivia, a solitary monster hunter, struggles to find his place in a world where people often prove more wicked than beasts.",
+            "trailer": "https://www.youtube.com/embed/ndl1W4ltcmg"
+        }
+    ]
