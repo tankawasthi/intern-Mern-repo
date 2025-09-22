@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    background-color: lightblue;
+    padding: 10px;
+    text-align: center;
+    justify-content: space-between;
+    text-decoration: none;
+}
+.header ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.header ul li{
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    color: darkblue;
+    text-decoration: none;
+}
+.header ul li:hover{
+    color: white;
+    text-decoration: underline;
+}   
+.active{
+    color: white;
+    text-decoration: underline;
+}
+
+.collage .link{
+    text-decoration: none;
+    color: darkblue;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px;
+}
