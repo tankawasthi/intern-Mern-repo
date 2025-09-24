@@ -1,0 +1,151 @@
+/* Basic reset and font */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f3f4f6;
+  color: #374151;
+}
+
+/* App container */
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+/* Multi-page form container */
+.multi-page-form-container {
+  width: 100%;
+  max-width: 600px;
+}
+
+/* Form header and step indicator */
+.form-header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.form-header h1 {
+  font-size: 1.875rem; /* 3xl */
+  font-weight: 700; /* bold */
+  color: #1f2937;
+}
+
+.step-indicator {
+  margin-top: 0.5rem;
+  font-size: 0.875rem; /* sm */
+  color: #6b7280;
+}
+
+/* Styling for the form steps (Step1, Step2, etc.) */
+.form-step {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.form-step h2 {
+  font-size: 1.5rem; /* 2xl */
+  font-weight: 700; /* bold */
+  margin-bottom: 1rem;
+}
+
+/* Form field styling */
+.form-field-group {
+  margin-bottom: 1rem;
+}
+
+.form-field-group label {
+  display: block;
+  font-size: 0.875rem; /* sm */
+  font-weight: 500; /* medium */
+  color: #4b5563;
+  margin-bottom: 0.25rem;
+}
+
+.form-field-group input {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.375rem;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-field-group input:focus {
+  outline: none;
+  border-color: #4f46e5;
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.2);
+}
+
+/* Error message styling */
+.error-message {
+  margin-top: 0.25rem;
+  font-size: 0.875rem; /* sm */
+  color: #ef4444;
+}
+
+/* Button styling */
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+button {
+  display: inline-flex;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.375rem;
+  font-size: 0.875rem; /* sm */
+  font-weight: 500; /* medium */
+  color: #ffffff;
+  background-color: #4f46e5;
+  cursor: pointer;
+  transition: background-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+button:hover {
+  background-color: #4338ca;
+}
+
+.button-secondary {
+  color: #4b5563;
+  background-color: #e5e7eb;
+}
+
+.button-secondary:hover {
+  background-color: #d1d5db;
+}
+
+.button-success {
+  background-color: #10b981;
+}
+
+.button-success:hover {
+  background-color: #059669;
+}
+
+/* Review step styling */
+.review-data {
+  margin-top: 1rem;
+}
+
+.review-data p {
+  margin-bottom: 0.5rem;
+}
+
+.review-data p strong {
+  color: #1f2937;
+}
